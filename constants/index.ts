@@ -138,3 +138,24 @@ export const Frontend_skill = [
     height: 50
   }
 ]
+
+export const Cards = [
+  {
+    skill_name: 'bookmark',
+    Image: '/bookmark.png',
+    width: 50,
+    height: 50
+  },
+  {
+    skill_name: 'blogmanager',
+    Image: '/blogmanager.png',
+    width: 50,
+    height: 50
+  },
+  {
+    skill_name: 'Easybank',
+    Image: '/easybank.png',
+    width: 50,
+    height: 50
+  }
+]
