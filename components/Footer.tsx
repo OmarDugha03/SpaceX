@@ -1,17 +1,11 @@
 import React from 'react'
-import {
-  RxDiscordLogo,
-  RxGithubLogo,
-  RxInstagramLogo,
-  RxTwitterLogo,
-  RxLinkedinLogo
-} from 'react-icons/rx'
+import { RxDiscordLogo, RxGithubLogo } from 'react-icons/rx'
 
 import { FaYoutube } from 'react-icons/fa'
 
 const Footer = () => {
   return (
-    <div className='h-full w-full bg-slate-900 p-[15px] text-gray-200 shadow-lg '>
+    <div className=' w-full bg-slate-900 p-[15px] text-gray-200 shadow-lg '>
       <div className='m-auto flex w-full flex-col items-center justify-center'>
         <div className='flex h-full w-full flex-row flex-wrap items-center justify-around'>
           <div className='flex h-auto min-w-[200px] flex-col items-center justify-start'>

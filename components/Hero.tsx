@@ -38,54 +38,54 @@ export default function Hero() {
 export const products = [
   {
     title: 'Bookmark',
-    link: 'https://gomoonbeam.com',
+    link: 'https://bookmark-manager.pages.dev/',
     thumbnail: '/bookmark.png'
   },
   {
     title: 'Blog Manager',
-    link: 'https://cursor.so',
+    link: 'https://blog-manager.pages.dev/',
     thumbnail: '/blogmanager.png'
   },
   {
     title: 'Easybank',
-    link: 'https://userogue.com',
+    link: 'https://easybank-landing-page-five-phi.vercel.app/',
     thumbnail: '/easybank.png'
   },
 
   {
     title: 'Mini-dashboard',
-    link: 'https://editorially.org',
+    link: 'https://mini-dashboard-two.vercel.app/',
     thumbnail: '/minidash.png'
   },
   {
     title: 'Countries  API',
-    link: 'https://editrix.ai',
+    link: 'https://country-rest-red.vercel.app/',
     thumbnail: '/restapi.png'
   },
   {
     title: 'Weather App',
-    link: 'https://editrix.ai',
+    link: 'https://weather-app-eight-iota-24.vercel.app/',
     thumbnail: '/weather.png'
   },
   {
     title: 'Personal Website',
-    link: 'https://editrix.ai',
+    link: 'https://omar-dugha.vercel.app/',
     thumbnail: '/omarwebsite.png'
   },
   {
     title: 'Daraak arabic',
-    link: 'https://editrix.ai',
+    link: 'https://daraak-main-6h5s1rxes-omars-projects-1578f2e9.vercel.app/',
     thumbnail: '/arab.png'
   },
   {
     title: 'Login Form',
-    link: 'https://editrix.ai',
+    link: 'https://daraak.vercel.app/',
     thumbnail: '/loginform.png'
   },
 
   {
     title: 'Daraak ',
-    link: 'https://editrix.ai',
+    link: 'https://daraak.vercel.app/',
     thumbnail: '/denglish.png'
   }
 ]

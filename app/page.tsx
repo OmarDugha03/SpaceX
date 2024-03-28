@@ -1,9 +1,8 @@
 'use client'
 import Hero, { products } from '@/components/Hero'
 import CallTOAction from '@/components/callToAction'
-import { Spotlight } from '@/components/ui/Spotlight'
 import Card from '@/components/ui/card'
-import { LampContainer, LampDemo } from '@/components/ui/lamp'
+import { LampDemo } from '@/components/ui/lamp'
 import { TracingBeam } from '@/components/ui/tracing-beam'
 export default function Home() {
   return (
@@ -25,12 +24,9 @@ export default function Home() {
             />
           ))}
         </section>
-
-        <CallTOAction />
-        <Spotlight
-          className='-top-40 left-0 md:-top-20 md:left-60'
-          fill='white'
-        />
+        <section className='my-12'>
+          <CallTOAction />
+        </section>
       </TracingBeam>
     </div>
   )
