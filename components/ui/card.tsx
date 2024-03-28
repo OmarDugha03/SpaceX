@@ -7,12 +7,12 @@ interface cardProps {
   title: string
   desc: string
   url: string
-  img: string
+  repo: string
 }
 
-const Card: FC<cardProps> = ({ desc, img, title, url }) => {
+const Card: FC<cardProps> = ({ desc, repo, title, url }) => {
   return (
-    <CardContainer className='inter-var m-2 md:m-0'>
+    <CardContainer className='inter-var md:m-0 lg:w-[90%]'>
       <CardBody className='group/card relative h-auto  w-auto rounded-xl border border-black/[0.1] bg-gray-50 p-6 dark:border-white/[0.2] dark:bg-black dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] sm:w-[30rem]  '>
         <CardItem
           translateZ='50'
@@ -29,18 +29,18 @@ const Card: FC<cardProps> = ({ desc, img, title, url }) => {
         </CardItem>
         <CardItem translateZ='100' className='mt-4 w-full'>
           <Image
-            src='https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=2560&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+            src={url}
             height='1000'
             width='1000'
-            className='h-60 w-full rounded-xl object-cover group-hover/card:shadow-xl'
+            className=' w-full rounded-xl object-cover group-hover/card:shadow-xl'
             alt='thumbnail'
           />
         </CardItem>
-        <div className='mt-20 flex items-center justify-between'>
+        <div className='mt-2 flex items-center justify-between'>
           <CardItem
             translateZ={20}
             as={Link}
-            href={img}
+            href={repo}
             target='__blank'
             className='rounded-xl px-4 py-2 text-xs font-normal dark:text-white'
           >
