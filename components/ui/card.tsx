@@ -22,15 +22,17 @@ const Card: FC<cardProps> = ({ repo, title, url }) => {
         </CardItem>
 
         <CardItem translateZ='100' className='mt-4 w-full'>
-          <Image
-            src={url}
-            placeholder='blur'
-            blurDataURL={url}
-            height='1000'
-            width='1000'
-            className=' w-full rounded-xl object-cover group-hover/card:shadow-violet-500'
-            alt='thumbnail'
-          />
+          <Link href={repo} target='_blank'>
+            <Image
+              src={url}
+              placeholder='blur'
+              blurDataURL={url}
+              height='1000'
+              width='1000'
+              className=' w-full rounded-xl object-cover group-hover/card:shadow-violet-500'
+              alt='thumbnail'
+            />
+          </Link>
         </CardItem>
         <div className='mt-2 flex items-center justify-between'>
           <CardItem
