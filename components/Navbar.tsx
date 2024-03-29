@@ -6,16 +6,14 @@ import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
-  DropdownMenuLabel,
-  DropdownMenuSeparator,
   DropdownMenuTrigger
 } from '@/components/ui/dropdown-menu'
 
 const Navbar = () => {
   return (
     <>
-      <section className='fixed top-0 z-50 hidden h-[65px] w-full bg-slate-900  px-10  shadow-lg shadow-[#2A0E61]/50 backdrop-blur-md lg:block'>
-        <nav className='m-auto flex h-full  w-full flex-row items-center justify-between px-[10px]'>
+      <section className='fixed top-0 z-50 hidden h-[65px] w-full bg-slate-900  px-5   shadow-lg shadow-[#2A0E61]/50 backdrop-blur-md lg:block'>
+        <nav className='container m-auto flex  h-full w-full flex-row items-center justify-between '>
           <Link
             href='#about-me'
             className='flex h-auto w-auto flex-row items-center gap-x-4'
@@ -46,20 +44,9 @@ const Navbar = () => {
               </a>
             </div>
           </div>
-
-          <div className='flex flex-row gap-5'>
-            {Socials.map(social => (
-              <Image
-                src={social.src}
-                alt={social.name}
-                key={social.name}
-                width={24}
-                height={24}
-              />
-            ))}
-          </div>
         </nav>
       </section>
+      {/* Mobile  */}
       <section className='container bg-slate-900 p-4 lg:hidden'>
         <nav className='m-auto flex h-full  w-full flex-row items-center justify-between px-[10px]'>
           <Link
@@ -99,19 +86,6 @@ const Navbar = () => {
                 <a href='#projects' className='cursor-pointer'>
                   Projects
                 </a>
-              </DropdownMenuItem>
-              <DropdownMenuItem>
-                <div className='flex items-center justify-center gap-x-4'>
-                  {Socials.map(social => (
-                    <Image
-                      src={social.src}
-                      alt={social.name}
-                      key={social.name}
-                      width={24}
-                      height={24}
-                    />
-                  ))}
-                </div>
               </DropdownMenuItem>
             </DropdownMenuContent>
           </DropdownMenu>

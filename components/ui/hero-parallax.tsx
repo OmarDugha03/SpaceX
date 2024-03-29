@@ -104,13 +104,17 @@ export const HeroParallax = ({
 export const Header = () => {
   return (
     <div className='relative left-0 top-0 mx-auto w-full max-w-7xl px-4  py-20 md:py-40'>
-      <h1 className=' absolute -top-20 left-8 text-2xl font-bold dark:text-white md:text-7xl'>
-        <br /> development studio
+      <h1 className=' absolute -top-20 left-8 text-2xl font-bold dark:text-white md:-top-44 md:text-7xl'>
+        <br /> Frontend Developer
       </h1>
       <p className='absolute left-8 top-2 max-w-2xl  text-base dark:text-neutral-200 md:text-xl lg:top-20'>
-        We build beautiful products with the latest technologies and frameworks.
-        We are a team of passionate developers and designers that love to build
-        amazing products.
+        👋 Hey there! I’m a web wizard 🧙‍♂️ who crafts delightful digital
+        experiences. Let me break it down for you: Next.js: I weave
+        server-rendered React magic, making websites lightning-fast and
+        SEO-friendly. 🚀 TypeScript: My code is like a Swiss watch—precise,
+        reliable, and ready for any challenge. ⏰ Tailwind CSS: I sculpt
+        beautiful designs with atomic precision. My styles are responsive,
+        efficient, and oh-so-clean.
       </p>
     </div>
   )

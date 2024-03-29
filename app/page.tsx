@@ -1,4 +1,5 @@
 'use client'
+import Contact from '@/components/Contact'
 import Hero, { products } from '@/components/Hero'
 import Skills from '@/components/Skills'
 import Card from '@/components/ui/card'
@@ -15,7 +16,7 @@ export default function Home() {
         </div>
         <section
           id='projects'
-          className=' mx-2 mt-0 grid w-[95%] grid-cols-1 gap-5 md:grid-cols-2 lg:mx-0 lg:w-full   '
+          className=' mx-2 mt-0 grid w-[95%] grid-cols-1 gap-5 lg:mx-0  lg:w-full lg:grid-cols-2   '
         >
           {products.map(item => (
             <Card
@@ -29,6 +30,7 @@ export default function Home() {
         <section>
           <Skills />
         </section>
+        <Contact />
       </TracingBeam>
     </div>
   )

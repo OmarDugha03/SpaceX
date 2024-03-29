@@ -25,8 +25,8 @@ export default function Hero() {
   return (
     <>
       <div className='flex h-[60vh] flex-col items-center justify-center lg:h-[40rem]  '>
-        <p className='text-xs text-neutral-600 dark:text-neutral-200 sm:text-base  '>
-          Turn your ideas to real life code
+        <p className='ms-10 text-xs font-semibold text-neutral-600 dark:text-neutral-200 sm:text-base  '>
+          Unleash Your Imagination! Code Your Dreams into Reality. 🚀
         </p>
         <TypewriterEffectSmooth words={words} />
       </div>
