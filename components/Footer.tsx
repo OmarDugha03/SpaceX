@@ -31,7 +31,13 @@ const Footer = () => {
           </p>
           <p className='my-[15px] flex cursor-pointer flex-row items-center'>
             <RxGithubLogo />
-            <span className='ml-[6px] text-[15px]'>Github</span>
+            <Link
+              target='_blank'
+              href='https://github.com/OmarDugha03'
+              className='ml-[6px] text-[15px]'
+            >
+              Github
+            </Link>
           </p>
         </span>
         <span className='flex h-auto min-w-[200px] flex-col items-center justify-start'>
