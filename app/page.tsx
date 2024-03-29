@@ -1,6 +1,6 @@
 'use client'
 import Hero, { products } from '@/components/Hero'
-import CallTOAction from '@/components/callToAction'
+import Skills from '@/components/Skills'
 import Card from '@/components/ui/card'
 import { LampDemo } from '@/components/ui/lamp'
 import { TracingBeam } from '@/components/ui/tracing-beam'
@@ -13,19 +13,21 @@ export default function Home() {
         <div className=' w-full'>
           <LampDemo text1={'My Projects'} />
         </div>
-        <section className='mt-0 grid w-[100%] grid-cols-1 gap-5 md:grid-cols-2   '>
+        <section
+          id='projects'
+          className=' mx-2 mt-0 grid w-[95%] grid-cols-1 gap-5 md:grid-cols-2 lg:mx-0 lg:w-full   '
+        >
           {products.map(item => (
             <Card
-              title={'this is the title'}
+              title={item.title}
               key={item.title}
-              desc={'this is the descrpt'}
               url={item.thumbnail}
               repo={item.link}
             />
           ))}
         </section>
-        <section className='my-12'>
-          <CallTOAction />
+        <section>
+          <Skills />
         </section>
       </TracingBeam>
     </div>

@@ -96,20 +96,21 @@ export const Frontend_skill = [
     height: 65
   },
   {
+    skill_name: 'React',
+    Image: '/react.png',
+    width: 80,
+    height: 80
+  },
+  {
     skill_name: 'Tailwind Css',
     Image: '/tailwind.png',
     width: 80,
     height: 80
   },
+  /* Second slice */
   {
     skill_name: 'Material UI',
     Image: '/mui.png',
-    width: 80,
-    height: 80
-  },
-  {
-    skill_name: 'React',
-    Image: '/react.png',
     width: 80,
     height: 80
   },
@@ -131,9 +132,48 @@ export const Frontend_skill = [
     width: 80,
     height: 80
   },
+  /* Third slice  */
   {
     skill_name: 'Figma',
     Image: '/figma.png',
+    width: 50,
+    height: 50
+  },
+  {
+    skill_name: 'Framer',
+    Image: '/framer.png',
+    width: 50,
+    height: 50
+  },
+  {
+    skill_name: 'git-icon',
+    Image: '/git-icon.svg',
+    width: 50,
+    height: 50
+  },
+  /* four */
+  {
+    skill_name: 'Github',
+    Image: '/gitwhite.png',
+    width: 50,
+    height: 50
+  },
+  {
+    skill_name: 'Shadcn',
+    Image: '/shadcn-ui-seeklogo.svg',
+    width: 50,
+    height: 50
+  },
+  /* Last */
+  {
+    skill_name: 'Zustand',
+    Image: '/zustand.jpg',
+    width: 50,
+    height: 50
+  },
+  {
+    skill_name: 'zod-seeklogo',
+    Image: '/zod-seeklogo.svg',
     width: 50,
     height: 50
   }

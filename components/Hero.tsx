@@ -30,8 +30,9 @@ export default function Hero() {
         </p>
         <TypewriterEffectSmooth words={words} />
       </div>
-
-      <HeroParallax products={products} />
+      <div id='about-me'>
+        <HeroParallax products={products} />
+      </div>
     </>
   )
 }
