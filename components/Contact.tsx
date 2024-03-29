@@ -399,7 +399,7 @@ export default function Contact() {
   ]
 
   return (
-    <div className='relative flex  h-screen w-full flex-row items-center justify-center  md:h-auto  '>
+    <div className='relative mb-4 flex w-full flex-row items-center justify-center md:h-auto  lg:h-screen  '>
       <div className='relative mx-auto h-full  w-full max-w-7xl overflow-hidden px-4 md:h-[40rem]'>
         <motion.div
           initial={{
@@ -426,7 +426,7 @@ export default function Contact() {
             I am available to work remotely !
           </Link>
         </motion.div>
-        <div className='lg:-bottom-22 absolute z-10  w-full  md:h-80 lg:h-[400px]  '>
+        <div className='lg:-bottom-22 absolute z-10 hidden w-full  md:h-80  lg:block lg:h-[400px]  '>
           <World data={sampleArcs} globeConfig={globeConfig} />
         </div>
       </div>
