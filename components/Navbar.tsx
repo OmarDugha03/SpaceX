@@ -8,6 +8,7 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger
 } from '@/components/ui/dropdown-menu'
+import { MyLogo } from '@/public'
 
 const Navbar = () => {
   return (
@@ -19,7 +20,7 @@ const Navbar = () => {
             className='flex h-auto w-auto flex-row items-center gap-x-4'
           >
             <Image
-              src='/MyLogo.svg'
+              src={MyLogo}
               alt='logo'
               width={70}
               height={70}
@@ -54,7 +55,7 @@ const Navbar = () => {
             className='flex h-auto w-auto flex-row items-center gap-x-4'
           >
             <Image
-              src='/MyLogo.svg'
+              src={MyLogo}
               alt='logo'
               width={70}
               height={70}
