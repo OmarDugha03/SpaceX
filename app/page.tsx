@@ -11,7 +11,7 @@ export default function Home() {
       <div className='pointer-events-none absolute  inset-0 flex items-center justify-center  bg-black [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]'></div>
       <TracingBeam className=' lg:mt-20'>
         <Hero />
-        <div className=' w-full'>
+        <div className='w-full  lg:mt-24'>
           <LampDemo text1={'My Projects'} />
         </div>
         <section
