@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 const Footer = () => {
   return (
-    <footer className='  w-full bg-slate-900 p-[15px]  text-gray-200 shadow-lg '>
+    <footer className='w-full  bg-slate-900 p-[15px] text-gray-200  shadow-lg  '>
       <div className=' flex  w-full flex-col items-center justify-center lg:flex-row lg:items-start lg:gap-x-12'>
         <span className='flex   flex-col items-center justify-start'>
           <div className='text-[16px] font-bold'>Social Media</div>

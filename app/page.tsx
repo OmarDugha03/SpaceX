@@ -9,9 +9,9 @@ export default function Home() {
   return (
     <div className='relative  m-0 flex h-full  w-full items-center justify-center bg-black  bg-grid-small-white/[0.4]'>
       <div className='pointer-events-none absolute  inset-0 flex items-center justify-center  bg-black [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]'></div>
-      <TracingBeam className=' lg:mt-20'>
+      <TracingBeam className=' lg:mb-12 lg:mt-20'>
         <Hero />
-        <div className='w-full  lg:mt-24'>
+        <div className='h-full w-full lg:mt-24'>
           <LampDemo text1={'My Projects'} />
         </div>
         <section
